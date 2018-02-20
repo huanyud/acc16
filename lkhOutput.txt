@@ -1,0 +1,57 @@
+NAME : lkhInput.19970.tour
+COMMENT : Length = 19970
+COMMENT : Found by LKH [Keld Helsgaun] Fri Mar 04 15:10:19 2016
+TYPE : TOUR
+DIMENSION : 49
+TOUR_SECTION
+1
+2
+4
+25
+13
+14
+15
+46
+16
+17
+19
+18
+20
+24
+40
+21
+22
+23
+42
+49
+12
+11
+27
+28
+32
+48
+33
+34
+45
+36
+35
+44
+39
+31
+29
+30
+37
+38
+10
+9
+47
+41
+26
+43
+7
+8
+5
+6
+3
+-1
+EOF
