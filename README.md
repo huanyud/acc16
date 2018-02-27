@@ -15,9 +15,9 @@ A simulation of the path planning algorithm in our ACC 2016 paper.
 `pia_algo.m` implements the algorithm in "**The effective application of a new approach to the generalized orienteering problem**" by **J. Silberholz** and **B.L. Golden**, Journal of Heuristics, vol. 16, no. 3, pp. 393–415, 2010.
 
 ## Dependency
-The algorithm uses the Lin-Kernighan-Helsgaun algorithm for the Traveling Salesman Problem as a subroutine. 
+The algorithm in our ACC 2016 paper uses the Lin-Kernighan-Helsgaun (LKH) algorithm for the Traveling Salesman Problem (TSP) as a subroutine. 
 
-Please download the lkh.exe program first. See http://www.akira.ruc.dk/~keld/research/LKH/ for more information on the LKH program.
+Please download the `lkh.exe` program first. See http://www.akira.ruc.dk/~keld/research/LKH/ for more information on the LKH program.
 
 ## How to run
 Run 'main3.m'.
