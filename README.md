@@ -1,7 +1,7 @@
 # acc16
 A simulation of the path planning algorithm in our ACC 2016 paper.
 
-## Algorithm
+## Algorithms
 `greedy_algo.m` implements the algorithm in "**A multi-resolution approach for discovery and 3D modeling of archaeological sites using satellite imagery and a UAV-borne camera**" by **H. Ding**, **E. Cristofalo**, **J. Wang**, **D.A. Castanon**, **E. Montijano**, **V. Saligrama**, and **M. Schwager**, American Control Conference (ACC), 2016.
 
 `benchmark_naive_algo.m` implements a simple greedy benchmark algorithm described in the paper above.
@@ -14,10 +14,16 @@ A simulation of the path planning algorithm in our ACC 2016 paper.
 
 `pia_algo.m` implements the algorithm in "**The effective application of a new approach to the generalized orienteering problem**" by **J. Silberholz** and **B.L. Golden**, Journal of Heuristics, vol. 16, no. 3, pp. 393–415, 2010.
 
-## Dependency
+## Dependencies
+### `lkh` or `lkh.exe`
 The algorithm in our ACC 2016 paper uses the Lin-Kernighan-Helsgaun (LKH) algorithm for the Traveling Salesman Problem (TSP) as a subroutine. 
 
-Please download the `lkh.exe` program first. See http://www.akira.ruc.dk/~keld/research/LKH/ for more information on the LKH program.
+Please download the `lkh` (for Unix/Linux) or `lkh.exe` (for Windows) program first. See http://www.akira.ruc.dk/~keld/research/LKH/ for more information on the LKH program.
+
+### `tinevez-matlab-tree`
+The tree data structure used in our algorithm. Please see https://github.com/tinevez/matlab-tree for more information.
 
 ## How to run
 Run 'main3.m'.
+
+To run a specific algorithm, remove comments ahead of it.
