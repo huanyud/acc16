@@ -1,5 +1,7 @@
 # acc16
-A simulation of the path planning algorithm in our ACC 2016 paper.
+A simulation of the path planning algorithm in our ACC 2016 paper:
+
+Huanyu Ding, Eric Cristofalo, Joseph Wang, David A. Castañón, Eduardo Montijano, Venkatesh Saligrama, and Mac Schwager, “A multi-resolution approach for discovery and 3D modeling of archaeological sites using satellite imagery and a UAV-borne camera,” In Proc. American Control Conference (ACC), Boston, MA, 2016.
 
 ## Algorithms
 `greedy_algo.m` implements the algorithm in "**A multi-resolution approach for discovery and 3D modeling of archaeological sites using satellite imagery and a UAV-borne camera**" by **H. Ding**, **E. Cristofalo**, **J. Wang**, **D.A. Castanon**, **E. Montijano**, **V. Saligrama**, and **M. Schwager**, American Control Conference (ACC), 2016.
